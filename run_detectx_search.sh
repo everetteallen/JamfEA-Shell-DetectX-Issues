@@ -5,16 +5,14 @@
 # Full path to DetectX Swift.app
 DX="/Applications/DetectX Swift.app"
 
-# Full path to output file for writing results
-# RESULTFILE="/Library/Application Support/JAMF/Addons/DetectX/results.json"
-RESULTFILE="/Users/ega/Desktop/foo/results.json"
+# Full path to output file for writing results as expected by DetectX Issues EA
+RESULTFILE="/Library/Application Support/JAMF/Addons/DetectX/results.json"
 
 # Minimum version of DetectX Swift
 # 1.9+ is required for Apple Silicon and macOS 12
 MINIMUM_VERSION=1.0900
 
 # Jamf policy custom trigger to run if DetectX is not found
-# JAMF_TRIGGER="install_detectx"
 JAMF_TRIGGER="install_detectx"
 
 run_jamf_policy() {
